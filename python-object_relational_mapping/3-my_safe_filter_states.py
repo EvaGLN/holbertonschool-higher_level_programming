@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Filter states by user input"""
+"""SQL Injection..."""
 import MySQLdb
 import sys
 
