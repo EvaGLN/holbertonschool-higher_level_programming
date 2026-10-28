@@ -29,7 +29,7 @@ def items():
     """items"""
     with open('items.json') as f:
         content = json.load(f)
-    return render_template('items.html', items=content['items'])
+    return render_template('items.html', items=content.get('items', []))
 
 
 if __name__ == '__main__':
